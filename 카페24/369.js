@@ -1,7 +1,7 @@
 function solution(n) {
     let answer = 0;
 
-    for (let i = 1; i <= n; i++){
+    for (let i = 1; i < n; i++){
         let tmp = (i + '').split('');
         
         tmp.map((i) => {
